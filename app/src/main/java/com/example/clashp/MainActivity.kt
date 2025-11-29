@@ -63,7 +63,7 @@ fun ClashPointsHomeScreen(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Image(
-            painter = painterResource(id = R.drawable.clashpointslogo),
+            painter = painterResource(id = R.drawable.clashpointslogonotitle),
             contentDescription = "Logo ClashPoints",
             modifier = Modifier.size(160.dp)
         )
