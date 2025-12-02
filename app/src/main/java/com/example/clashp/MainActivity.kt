@@ -22,6 +22,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
@@ -48,6 +49,14 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+val gradient = Brush.verticalGradient(
+    colors = listOf(
+        Color(0xFF0A0A0A),  // Negro
+        Color(0xFF1A0520),  // Morado oscuro
+        Color(0xFF0D1B2A)   // Azul oscuro
+    )
+)
+
 @Composable
 fun ClashPointsHomeScreen(
     onStartClick: () -> Unit = {},  // esto es temporal
@@ -57,7 +66,7 @@ fun ClashPointsHomeScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color.Black)
+            .background(gradient)
             .padding(horizontal = 32.dp),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
