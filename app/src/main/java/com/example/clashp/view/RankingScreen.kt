@@ -8,6 +8,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.EmojiEvents
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.material3.*
@@ -56,7 +57,7 @@ fun RankingScreen(
                 },
                 actions = {
                     Icon(
-                        imageVector = Icons.Default.Star,
+                        imageVector = Icons.Default.EmojiEvents,
                         contentDescription = "Trofeo",
                         tint = Color.Yellow,
                         modifier = Modifier.padding(end = 16.dp)
@@ -116,7 +117,7 @@ private fun RankingContent(
             color = Color.White,
             fontSize = 18.sp,
             fontWeight = FontWeight.Bold,
-            modifier = Modifier.padding(bottom = 16.dp)
+            modifier = Modifier.padding(bottom = 16.dp).fillMaxWidth().wrapContentWidth(Alignment.CenterHorizontally)
         )
 
         LazyColumn(

@@ -25,7 +25,7 @@ fun PrimaryClashButton(
             .height(56.dp),
         shape = RoundedCornerShape(50),
         colors = ButtonDefaults.buttonColors(
-            containerColor = Color(0xFFFF00FF),
+            containerColor = Color(0xEEEE00EE),
             contentColor = Color.White
         )
     ) {
