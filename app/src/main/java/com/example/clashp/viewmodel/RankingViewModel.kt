@@ -19,7 +19,7 @@ class RankingViewModel(
     private val repository: RankingRepository = RankingRepository()
 ) : ViewModel() {
 
-    private val _uiState = MutableStateFlow(RankingUiState())
+    private val _uiState = MutableStateFlow(RankingUiState(isLoading = true))
     val uiState: StateFlow<RankingUiState> = _uiState.asStateFlow()
 
     init {
@@ -28,20 +28,28 @@ class RankingViewModel(
 
     private fun loadRankings() {
         viewModelScope.launch {
-            _uiState.value = _uiState.value.copy(isLoading = true)
-            try {
-                repository.getRankings().collect { rankings ->
-                    _uiState.value = RankingUiState(
-                        players = rankings,
-                        isLoading = false
-                    )
-                }
-            } catch (e: Exception) {
-                _uiState.value = _uiState.value.copy(
-                    isLoading = false,
-                    error = e.message
+            repository.getRankings().collect { result ->
+                result.fold(
+                    onSuccess = { rankings ->
+                        _uiState.value = RankingUiState(
+                            players = rankings,
+                            isLoading = false
+                        )
+                    },
+                    onFailure = { exception ->
+                        _uiState.value = RankingUiState(
+                            players = emptyList(),
+                            isLoading = false,
+                            error = exception.message ?: "Error al cargar el ranking"
+                        )
+                    }
                 )
             }
         }
+    }
+
+    fun retry() {
+        _uiState.value = _uiState.value.copy(isLoading = true, error = null)
+        loadRankings()
     }
 }
