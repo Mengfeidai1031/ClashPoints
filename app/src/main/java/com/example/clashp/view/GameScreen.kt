@@ -313,7 +313,7 @@ private fun RouletteView(
                             val selectedIndex = (0..5).random()
                             val selectedCat = categories[selectedIndex]
 
-                            // CLAVE: Para centrar, rotar a -index*60 - 30 (30 es la mitad de 60)
+                            // Importante: Para centrar, rotar a -index*60 - 30
                             val targetAngle = -(selectedIndex * 60f + 30f)
                             val targetRotation = 360f * 5 + targetAngle
 
@@ -408,13 +408,13 @@ private fun QuestionView(
                     val progress = uiState.timeRemaining / 25f
                     val sweepAngle = 360f * progress
 
-                    // Círculo de fondo (gris oscuro)
+                    // Círculo de fondo
                     drawCircle(
                         color = Color(0xFF333333),
                         radius = size.minDimension / 2
                     )
 
-                    // Arco de progreso (cambia de color según el tiempo)
+                    // progreso
                     val timerColor = when {
                         uiState.timeRemaining > 15 -> Color(0xFF00FF00) // Verde
                         uiState.timeRemaining > 8 -> Color(0xFFFFAA00)  // Amarillo/Naranja
@@ -487,7 +487,7 @@ private fun QuestionView(
             question.options.forEach { option ->
                 val isCorrect = option == question.correctAnswer
                 val isSelected = uiState.hasAnswered && isCorrect
-                val isWrong = uiState.hasAnswered && !isCorrect && option != question.correctAnswer
+                val isWrong = uiState.hasAnswered && !isCorrect
 
                 val backgroundColor = when {
                     isSelected -> Color(0xFF00FF00).copy(alpha = 0.3f)

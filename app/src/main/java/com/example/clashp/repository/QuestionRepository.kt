@@ -34,7 +34,7 @@ class QuestionRepository {
         }
     }
 
-    // Obtener todas las preguntas (para verificar)
+    // Obtener todas las preguntas
     suspend fun getAllQuestions(): Result<List<Question>> {
         return try {
             val snapshot = questionsCollection.get().await()

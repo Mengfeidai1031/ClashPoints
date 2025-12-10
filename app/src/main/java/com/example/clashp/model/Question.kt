@@ -14,7 +14,7 @@ data class Question(
         return try {
             Category.entries.find { it.displayName.equals(category, ignoreCase = true) }
                 ?: Category.HISTORIA
-        } catch (e: Exception) {
+        } catch (_: Exception) {
             Category.HISTORIA
         }
     }
