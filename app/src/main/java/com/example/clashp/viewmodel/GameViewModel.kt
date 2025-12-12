@@ -95,6 +95,7 @@ class GameViewModel(
                 currentQuestion = availableQuestions[questionIndexInRound],
                 timeRemaining = 25,
                 hasAnswered = false,
+                selectedAnswer = null,
                 lastAnswerWasCorrect = null,
                 pointsEarnedLastQuestion = 0
             )
@@ -162,6 +163,7 @@ class GameViewModel(
 
         _uiState.value = currentState.copy(
             hasAnswered = true,
+            selectedAnswer = selectedOption,
             lastAnswerWasCorrect = isCorrect,
             pointsEarnedLastQuestion = pointsEarned,
             totalScore = currentState.totalScore + pointsEarned

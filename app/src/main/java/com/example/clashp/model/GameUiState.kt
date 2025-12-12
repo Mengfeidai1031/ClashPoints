@@ -13,6 +13,7 @@ data class GameUiState(
     val isLoading: Boolean = false,
     val isGameOver: Boolean = false,
     val hasAnswered: Boolean = false,
+    val selectedAnswer: String? = null,
     val lastAnswerWasCorrect: Boolean? = null,
     val pointsEarnedLastQuestion: Int = 0,
     val errorMessage: String? = null

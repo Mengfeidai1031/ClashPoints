@@ -486,18 +486,18 @@ private fun QuestionView(
             // Opciones como Cards clickeables
             question.options.forEach { option ->
                 val isCorrect = option == question.correctAnswer
-                val isSelected = uiState.hasAnswered && isCorrect
-                val isWrong = uiState.hasAnswered && !isCorrect
+                val isSelectedByUser = uiState.hasAnswered && option == uiState.selectedAnswer
+                val isWrongSelection = isSelectedByUser && !isCorrect
 
                 val backgroundColor = when {
-                    isSelected -> Color(0xFF00FF00).copy(alpha = 0.3f)
-                    isWrong && !isSelected -> Color(0xFF2A2A2A)
+                    isCorrect && uiState.hasAnswered -> Color(0xFF00FF00).copy(alpha = 0.3f)
+                    isWrongSelection -> Color(0xFFFF0000).copy(alpha = 0.3f)
                     else -> Color(0xFF2A2A2A)
                 }
 
                 val borderColor = when {
-                    isSelected -> Color(0xFF00FF00)
-                    isWrong -> Color(0xFF2A2A2A)
+                    isCorrect && uiState.hasAnswered -> Color(0xFF00FF00)
+                    isWrongSelection -> Color(0xFFFF0000)
                     else -> Color(0xFF444444)
                 }
 
