@@ -49,6 +49,9 @@ dependencies {
     // Firestore
     implementation("com.google.firebase:firebase-firestore-ktx")
 
+    // Firebase Auth
+    implementation("com.google.firebase:firebase-auth-ktx")
+
     // Coroutines para Firebase
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3")
 
