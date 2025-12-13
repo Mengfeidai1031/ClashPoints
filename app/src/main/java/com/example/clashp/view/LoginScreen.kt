@@ -288,7 +288,7 @@ fun LoginScreen(
                             } else {
                                 // LOGIIIIN
                                 auth.signInWithEmailAndPassword(email.trim(), password.trim())
-                                    .addOnSuccessListener { result ->
+                                    .addOnSuccessListener {
                                         isLoading = false
                                         onLoginSuccess()
                                     }

@@ -17,6 +17,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.clashp.ui.components.PrimaryClashButton
+import com.google.firebase.auth.FirebaseAuth
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -24,7 +25,12 @@ fun NameInputScreen(
     onStartGame: (String) -> Unit,
     onBackClick: () -> Unit
 ) {
-    var playerName by remember { mutableStateOf("") }
+    val auth = FirebaseAuth.getInstance()
+    val currentUser = auth.currentUser
+
+    var playerName by remember { mutableStateOf(currentUser?.displayName ?: "") }
+
+    val isLoggedIn = currentUser != null
 
     val gradient = Brush.verticalGradient(
         colors = listOf(
@@ -118,7 +124,11 @@ fun NameInputScreen(
                         // TextField personalizado
                         OutlinedTextField(
                             value = playerName,
-                            onValueChange = { playerName = it },
+                            onValueChange = {
+                                if (!isLoggedIn){
+                                    playerName = it
+                                }
+                                            },
                             placeholder = {
                                 Text(
                                     "Ingresa tu nombre",
@@ -133,11 +143,14 @@ fun NameInputScreen(
                                 )
                             },
                             singleLine = true,
+                            enabled = !isLoggedIn,
                             colors = OutlinedTextFieldDefaults.colors(
                                 focusedTextColor = Color.White,
                                 unfocusedTextColor = Color.White,
+                                disabledTextColor = Color(0xFFFF00FF), // para que se note que está deshabilitado
                                 focusedBorderColor = Color(0xFFFF00FF),
                                 unfocusedBorderColor = Color(0xFF555555),
+                                disabledBorderColor = Color(0xFFFF00FF),    //tambien para que se note
                                 cursorColor = Color(0xFFFF00FF)
                             ),
                             shape = RoundedCornerShape(50),
