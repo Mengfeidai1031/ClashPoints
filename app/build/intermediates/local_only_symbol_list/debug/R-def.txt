@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+drawable logo
+raw questions
+string app_name
+string back_to_menu
+string enter_name
+string gcm_defaultSenderId
+string global_ranking
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
+string name
+string no
+string play
+string points
+string position
+string project_id
+string ranking
+string save_score
+string settings
+string spin_wheel
+string start
+string yes
+style Theme.ClashPoints
+xml backup_rules
+xml data_extraction_rules

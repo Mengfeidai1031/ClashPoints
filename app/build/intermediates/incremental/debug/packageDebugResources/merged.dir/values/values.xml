@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ClashPoints</string>
+    <string name="back_to_menu">Volver al Menú</string>
+    <string name="enter_name">Ingresa tu nombre</string>
+    <string name="gcm_defaultSenderId" translatable="false">584840134918</string>
+    <string name="global_ranking">Ranking Global</string>
+    <string name="google_api_key" translatable="false">AIzaSyCZWXSr-iFoSqwpsiGYB7B_zBU2agJFHHE</string>
+    <string name="google_app_id" translatable="false">1:584840134918:android:852c4fb07566f73c4d1e87</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCZWXSr-iFoSqwpsiGYB7B_zBU2agJFHHE</string>
+    <string name="google_storage_bucket" translatable="false">clashpoints-8de01.firebasestorage.app</string>
+    <string name="name">Nombre</string>
+    <string name="no">No</string>
+    <string name="play">Jugar</string>
+    <string name="points">Puntos</string>
+    <string name="position">Pos</string>
+    <string name="project_id" translatable="false">clashpoints-8de01</string>
+    <string name="ranking">Ranking</string>
+    <string name="save_score">¿Guardar puntuación?</string>
+    <string name="settings">Ajustes</string>
+    <string name="spin_wheel">Girar Ruleta</string>
+    <string name="start">Start</string>
+    <string name="yes">Sí</string>
+    <style name="Theme.ClashPoints" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/black</item>
+    </style>
+</resources>

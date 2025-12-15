@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "584840134918",
+    "project_id": "clashpoints-8de01",
+    "storage_bucket": "clashpoints-8de01.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584840134918:android:852c4fb07566f73c4d1e87",
+        "android_client_info": {
+          "package_name": "com.clashpoints.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZWXSr-iFoSqwpsiGYB7B_zBU2agJFHHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

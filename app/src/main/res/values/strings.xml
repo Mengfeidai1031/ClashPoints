@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">ClashP</string>
+    <string name="app_name">ClashPoints</string>
+    <string name="start">Start</string>
+    <string name="ranking">Ranking</string>
+    <string name="settings">Ajustes</string>
+    <string name="enter_name">Ingresa tu nombre</string>
+    <string name="play">Jugar</string>
+    <string name="spin_wheel">Girar Ruleta</string>
+    <string name="global_ranking">Ranking Global</string>
+    <string name="save_score">¿Guardar puntuación?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="back_to_menu">Volver al Menú</string>
+    <string name="position">Pos</string>
+    <string name="name">Nombre</string>
+    <string name="points">Puntos</string>
 </resources>

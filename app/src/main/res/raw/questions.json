@@ -1,0 +1,634 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "category": "Geografia",
+      "question": "¿Cuál es la capital de Francia?",
+      "options": ["Londres", "París", "Berlín", "Madrid"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "category": "Geografia",
+      "question": "¿Qué océano es el más grande del mundo?",
+      "options": ["Atlántico", "Índico", "Pacífico", "Ártico"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 3,
+      "category": "Geografia",
+      "question": "¿En qué continente se encuentra Egipto?",
+      "options": ["Asia", "África", "Europa", "Oceanía"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "category": "Geografia",
+      "question": "¿Cuál es el río más largo del mundo?",
+      "options": ["Nilo", "Amazonas", "Yangtsé", "Misisipi"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "category": "Geografia",
+      "question": "¿Qué país tiene más habitantes?",
+      "options": ["India", "Estados Unidos", "China", "Indonesia"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 6,
+      "category": "Geografia",
+      "question": "¿Cuál es el desierto más grande del mundo?",
+      "options": ["Gobi", "Sahara", "Kalahari", "Atacama"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "category": "Geografia",
+      "question": "¿Qué cordillera separa Europa de Asia?",
+      "options": ["Alpes", "Andes", "Urales", "Himalaya"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 8,
+      "category": "Geografia",
+      "question": "¿Cuál es la capital de Japón?",
+      "options": ["Seúl", "Pekín", "Tokio", "Bangkok"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 9,
+      "category": "Geografia",
+      "question": "¿Qué país tiene forma de bota?",
+      "options": ["Grecia", "España", "Italia", "Croacia"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 10,
+      "category": "Geografia",
+      "question": "¿En qué país se encuentra la Torre Eiffel?",
+      "options": ["Italia", "Francia", "Bélgica", "Suiza"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "category": "Geografia",
+      "question": "¿Cuál es el país más pequeño del mundo?",
+      "options": ["Mónaco", "Vaticano", "San Marino", "Liechtenstein"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "category": "Geografia",
+      "question": "¿Qué país es conocido como la tierra del sol naciente?",
+      "options": ["China", "Corea", "Japón", "Tailandia"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 13,
+      "category": "Geografia",
+      "question": "¿Cuál es la montaña más alta del mundo?",
+      "options": ["K2", "Everest", "Kilimanjaro", "Aconcagua"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 14,
+      "category": "Geografia",
+      "question": "¿Qué país tiene más islas?",
+      "options": ["Filipinas", "Indonesia", "Suecia", "Canadá"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 15,
+      "category": "Geografia",
+      "question": "¿En qué ciudad se encuentra el Big Ben?",
+      "options": ["París", "Nueva York", "Londres", "Dublín"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 16,
+      "category": "Ciencia",
+      "question": "¿Cuál es el planeta más cercano al Sol?",
+      "options": ["Venus", "Mercurio", "Marte", "Tierra"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "category": "Ciencia",
+      "question": "¿Qué gas respiramos principalmente?",
+      "options": ["Oxígeno", "Nitrógeno", "Hidrógeno", "Dióxido de carbono"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "category": "Ciencia",
+      "question": "¿Cuántos huesos tiene el cuerpo humano adulto?",
+      "options": ["186", "206", "226", "246"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "category": "Ciencia",
+      "question": "¿Cuál es la velocidad de la luz?",
+      "options": ["300,000 km/s", "150,000 km/s", "450,000 km/s", "200,000 km/s"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "category": "Ciencia",
+      "question": "¿Qué científico propuso la teoría de la relatividad?",
+      "options": ["Newton", "Einstein", "Galileo", "Hawking"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 21,
+      "category": "Ciencia",
+      "question": "¿Cuál es el metal más abundante en la corteza terrestre?",
+      "options": ["Hierro", "Cobre", "Aluminio", "Oro"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 22,
+      "category": "Ciencia",
+      "question": "¿Qué órgano del cuerpo humano es el más grande?",
+      "options": ["Hígado", "Cerebro", "Piel", "Corazón"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 23,
+      "category": "Ciencia",
+      "question": "¿Cuántos planetas hay en el sistema solar?",
+      "options": ["7", "8", "9", "10"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "category": "Ciencia",
+      "question": "¿Qué elemento químico tiene el símbolo 'O'?",
+      "options": ["Oro", "Oxígeno", "Osmio", "Ozono"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "category": "Ciencia",
+      "question": "¿A qué temperatura hierve el agua?",
+      "options": ["90°C", "100°C", "110°C", "120°C"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 26,
+      "category": "Ciencia",
+      "question": "¿Cuál es el animal más rápido del mundo?",
+      "options": ["León", "Guepardo", "Antílope", "Halcón peregrino"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 27,
+      "category": "Ciencia",
+      "question": "¿Qué planeta es conocido como el planeta rojo?",
+      "options": ["Marte", "Júpiter", "Saturno", "Venus"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "category": "Ciencia",
+      "question": "¿Cuántos cromosomas tiene una célula humana?",
+      "options": ["23", "46", "48", "92"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 29,
+      "category": "Ciencia",
+      "question": "¿Qué científico descubrió la penicilina?",
+      "options": ["Pasteur", "Fleming", "Darwin", "Curie"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 30,
+      "category": "Ciencia",
+      "question": "¿Cuál es el animal más grande del mundo?",
+      "options": ["Elefante", "Ballena azul", "Tiburón", "Jirafa"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 31,
+      "category": "Historia",
+      "question": "¿En qué año cayó el Imperio Romano de Occidente?",
+      "options": ["376 d.C.", "476 d.C.", "576 d.C.", "676 d.C."],
+      "correctAnswer": 1
+    },
+    {
+      "id": 32,
+      "category": "Historia",
+      "question": "¿Quién fue el primer presidente de Estados Unidos?",
+      "options": ["Lincoln", "Jefferson", "Washington", "Adams"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 33,
+      "category": "Historia",
+      "question": "¿En qué año comenzó la Segunda Guerra Mundial?",
+      "options": ["1937", "1939", "1941", "1943"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 34,
+      "category": "Historia",
+      "question": "¿Quién pintó la Mona Lisa?",
+      "options": ["Miguel Ángel", "Rafael", "Leonardo da Vinci", "Donatello"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 35,
+      "category": "Historia",
+      "question": "¿En qué año se descubrió América?",
+      "options": ["1492", "1482", "1502", "1512"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "category": "Historia",
+      "question": "¿Quién fue Cleopatra?",
+      "options": ["Reina de Grecia", "Reina de Egipto", "Reina de Roma", "Reina de Persia"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 37,
+      "category": "Historia",
+      "question": "¿En qué siglo se produjo la Revolución Francesa?",
+      "options": ["Siglo XVII", "Siglo XVIII", "Siglo XIX", "Siglo XX"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 38,
+      "category": "Historia",
+      "question": "¿Quién fue Julio César?",
+      "options": ["Rey de Grecia", "Emperador romano", "General romano", "Filósofo"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 39,
+      "category": "Historia",
+      "question": "¿En qué año cayó el Muro de Berlín?",
+      "options": ["1987", "1989", "1991", "1993"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 40,
+      "category": "Historia",
+      "question": "¿Quién fue Napoleón Bonaparte?",
+      "options": ["Rey de Francia", "Emperador francés", "General español", "Papa"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 41,
+      "category": "Historia",
+      "question": "¿En qué año llegó el hombre a la Luna?",
+      "options": ["1967", "1969", "1971", "1973"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 42,
+      "category": "Historia",
+      "question": "¿Quién fue Cristóbal Colón?",
+      "options": ["Explorador español", "Explorador italiano", "Explorador portugués", "Explorador inglés"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 43,
+      "category": "Historia",
+      "question": "¿Qué civilización construyó Machu Picchu?",
+      "options": ["Azteca", "Maya", "Inca", "Olmeca"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 44,
+      "category": "Historia",
+      "question": "¿En qué año se firmó la Declaración de Independencia de EE.UU.?",
+      "options": ["1774", "1776", "1778", "1780"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 45,
+      "category": "Historia",
+      "question": "¿Quién fue el primer emperador de Roma?",
+      "options": ["Julio César", "Augusto", "Nerón", "Trajano"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 46,
+      "category": "Deportes",
+      "question": "¿Cuántos jugadores hay en un equipo de fútbol?",
+      "options": ["9", "10", "11", "12"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 47,
+      "category": "Deportes",
+      "question": "¿Cada cuántos años se celebran los Juegos Olímpicos?",
+      "options": ["2 años", "4 años", "5 años", "6 años"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 48,
+      "category": "Deportes",
+      "question": "¿Quién es considerado el mejor futbolista de todos los tiempos por muchos?",
+      "options": ["Cristiano Ronaldo", "Pelé", "Maradona", "Messi"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 49,
+      "category": "Deportes",
+      "question": "¿En qué deporte destaca Rafael Nadal?",
+      "options": ["Fútbol", "Tenis", "Baloncesto", "Golf"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 50,
+      "category": "Deportes",
+      "question": "¿Cuántos puntos vale un touchdown en fútbol americano?",
+      "options": ["5", "6", "7", "8"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 51,
+      "category": "Deportes",
+      "question": "¿En qué deporte se usa un birdie?",
+      "options": ["Tenis", "Bádminton", "Golf", "Cricket"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 52,
+      "category": "Deportes",
+      "question": "¿Cuántos sets se necesitan ganar en un partido de tenis masculino de Grand Slam?",
+      "options": ["2", "3", "4", "5"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 53,
+      "category": "Deportes",
+      "question": "¿Qué país ha ganado más Copas del Mundo de fútbol?",
+      "options": ["Alemania", "Argentina", "Brasil", "Italia"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 54,
+      "category": "Deportes",
+      "question": "¿En qué deporte destaca Michael Jordan?",
+      "options": ["Béisbol", "Fútbol americano", "Baloncesto", "Hockey"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 55,
+      "category": "Deportes",
+      "question": "¿Cuántos anillos olímpicos hay?",
+      "options": ["4", "5", "6", "7"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 56,
+      "category": "Deportes",
+      "question": "¿En qué deporte se utiliza un stick y un puck?",
+      "options": ["Lacrosse", "Hockey sobre hielo", "Polo", "Cricket"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 57,
+      "category": "Deportes",
+      "question": "¿Cuántos jugadores hay en un equipo de baloncesto en la cancha?",
+      "options": ["4", "5", "6", "7"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 58,
+      "category": "Deportes",
+      "question": "¿Qué piloto tiene más campeonatos de Fórmula 1?",
+      "options": ["Senna", "Schumacher", "Hamilton", "Vettel"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 59,
+      "category": "Deportes",
+      "question": "¿En qué deporte destaca Usain Bolt?",
+      "options": ["Salto", "Atletismo", "Natación", "Ciclismo"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 60,
+      "category": "Deportes",
+      "question": "¿Cuántos Grand Slams hay en tenis?",
+      "options": ["3", "4", "5", "6"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 61,
+      "category": "Arte",
+      "question": "¿Quién pintó 'La noche estrellada'?",
+      "options": ["Monet", "Van Gogh", "Picasso", "Dalí"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 62,
+      "category": "Arte",
+      "question": "¿En qué museo se encuentra la Mona Lisa?",
+      "options": ["Prado", "Louvre", "British Museum", "Uffizi"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 63,
+      "category": "Arte",
+      "question": "¿Quién esculpió 'El David'?",
+      "options": ["Donatello", "Miguel Ángel", "Bernini", "Rodin"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 64,
+      "category": "Arte",
+      "question": "¿Qué estilo artístico representa Salvador Dalí?",
+      "options": ["Impresionismo", "Cubismo", "Surrealismo", "Expresionismo"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 65,
+      "category": "Arte",
+      "question": "¿Quién pintó 'Guernica'?",
+      "options": ["Miró", "Picasso", "Goya", "Velázquez"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 66,
+      "category": "Arte",
+      "question": "¿En qué ciudad está la Capilla Sixtina?",
+      "options": ["Florencia", "Venecia", "Roma", "Milán"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 67,
+      "category": "Arte",
+      "question": "¿Quién fue Andy Warhol?",
+      "options": ["Pintor pop art", "Escultor", "Arquitecto", "Fotógrafo"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 68,
+      "category": "Arte",
+      "question": "¿Qué pintor se cortó una oreja?",
+      "options": ["Gauguin", "Van Gogh", "Monet", "Renoir"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 69,
+      "category": "Arte",
+      "question": "¿Quién pintó 'Las Meninas'?",
+      "options": ["Goya", "El Greco", "Velázquez", "Murillo"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 70,
+      "category": "Arte",
+      "question": "¿Qué movimiento artístico fundó Pablo Picasso?",
+      "options": ["Surrealismo", "Cubismo", "Futurismo", "Dadaísmo"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 71,
+      "category": "Arte",
+      "question": "¿Quién pintó 'El grito'?",
+      "options": ["Munch", "Klimt", "Kandinsky", "Malevich"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 72,
+      "category": "Arte",
+      "question": "¿En qué país nació Frida Kahlo?",
+      "options": ["España", "Argentina", "México", "Colombia"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 73,
+      "category": "Arte",
+      "question": "¿Quién diseñó la Sagrada Familia?",
+      "options": ["Le Corbusier", "Gaudí", "Calatrava", "Gehry"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 74,
+      "category": "Arte",
+      "question": "¿Qué artista es famoso por sus relojes derretidos?",
+      "options": ["Miró", "Magritte", "Dalí", "Ernst"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 75,
+      "category": "Arte",
+      "question": "¿Quién pintó la 'Última Cena'?",
+      "options": ["Rafael", "Leonardo da Vinci", "Miguel Ángel", "Botticelli"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 76,
+      "category": "Entretenimiento",
+      "question": "¿Quién interpretó a Jack en 'Titanic'?",
+      "options": ["Brad Pitt", "Leonardo DiCaprio", "Tom Cruise", "Johnny Depp"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 77,
+      "category": "Entretenimiento",
+      "question": "¿Qué película ganó el Oscar a mejor película en 2020?",
+      "options": ["Joker", "1917", "Parásitos", "Once Upon a Time"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 78,
+      "category": "Entretenimiento",
+      "question": "¿Quién canta 'Thriller'?",
+      "options": ["Prince", "Michael Jackson", "Elvis", "Madonna"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 79,
+      "category": "Entretenimiento",
+      "question": "¿Cuántas películas tiene la saga Harry Potter?",
+      "options": ["7", "8", "9", "10"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 80,
+      "category": "Entretenimiento",
+      "question": "¿Quién es el creador de 'Los Simpson'?",
+      "options": ["Seth MacFarlane", "Matt Groening", "Trey Parker", "Mike Judge"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 81,
+      "category": "Entretenimiento",
+      "question": "¿En qué año se estrenó la primera película de Star Wars?",
+      "options": ["1975", "1977", "1979", "1981"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 82,
+      "category": "Entretenimiento",
+      "question": "¿Quién interpretó a Iron Man en el MCU?",
+      "options": ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 83,
+      "category": "Entretenimiento",
+      "question": "¿Qué banda británica es conocida como 'Los Cuatro de Liverpool'?",
+      "options": ["The Rolling Stones", "The Beatles", "Queen", "The Who"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 84,
+      "category": "Entretenimiento",
+      "question": "¿Quién dirigió 'E.T. el extraterrestre'?",
+      "options": ["George Lucas", "Steven Spielberg", "James Cameron", "Ridley Scott"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 85,
+      "category": "Entretenimiento",
+      "question": "¿Cuántas temporadas tiene 'Friends'?",
+      "options": ["8", "10", "12", "14"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 86,
+      "category": "Entretenimiento",
+      "question": "¿Quién es el rey del pop?",
+      "options": ["Elvis Presley", "Michael Jackson", "Prince", "Freddie Mercury"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 87,
+      "category": "Entretenimiento",
+      "question": "¿En qué película aparece el personaje Forrest Gump?",
+      "options": ["Forrest Gump", "Cast Away", "Philadelphia", "Big"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 88,
+      "category": "Entretenimiento",
+      "question": "¿Quién canta 'Bohemian Rhapsody'?",
+      "options": ["Led Zeppelin", "Queen", "The Beatles", "Pink Floyd"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 89,
+      "category": "Entretenimiento",
+      "question": "¿Qué actor interpreta a James Bond en 'Casino Royale' (2006)?",
+      "options": ["Pierce Brosnan", "Daniel Craig", "Sean Connery", "Roger Moore"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 90,
+      "category": "Entretenimiento",
+      "question": "¿Cuál es la película más taquillera de todos los tiempos?",
+      "options": ["Titanic", "Avatar", "Avengers: Endgame", "Star Wars"],
+      "correctAnswer": 1
+    }
+  ]
+}

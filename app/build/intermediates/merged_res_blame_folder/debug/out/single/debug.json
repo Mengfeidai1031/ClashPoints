@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.clashpoints.app-merged_res-56:/raw_questions.json.flat",
+        "source": "com.clashpoints.app-main-58:/raw/questions.json"
+    },
+    {
+        "merged": "com.clashpoints.app-merged_res-56:/xml_data_extraction_rules.xml.flat",
+        "source": "com.clashpoints.app-main-58:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.clashpoints.app-merged_res-56:/drawable_logo.png.flat",
+        "source": "com.clashpoints.app-main-58:/drawable/logo.png"
+    },
+    {
+        "merged": "com.clashpoints.app-merged_res-56:/xml_backup_rules.xml.flat",
+        "source": "com.clashpoints.app-main-58:/xml/backup_rules.xml"
+    }
+]
