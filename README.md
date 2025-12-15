@@ -180,7 +180,7 @@ Brush.horizontalGradient(
 
 ### Dependencias:
 - Jetpack Compose
-- Firebase Realtime Database
+- Firebase Firestore
 - Navigation Compose
 - Material Design 3
 - Gson
@@ -225,7 +225,7 @@ Brush.horizontalGradient(
 - **ViewModel** (arquitectura)
 
 ### Backend:
-- **Firebase Realtime Database** (ranking)
+- **Firebase Firestore** (ranking)
 
 ### Build System:
 - **Gradle** 8.2 con Kotlin DSL
