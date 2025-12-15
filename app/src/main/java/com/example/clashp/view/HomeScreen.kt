@@ -24,7 +24,7 @@ import com.example.clashp.ui.theme.ClashPTheme
 fun HomeScreen(
     onStartClick: () -> Unit = {},
     onRankingClick: () -> Unit = {},
-    onSettingsClick: () -> Unit = {}
+    onLoginClick: () -> Unit = {}
 ) {
     val gradient = Brush.verticalGradient(
         colors = listOf(
@@ -61,7 +61,7 @@ fun HomeScreen(
             Spacer(modifier = Modifier.height(48.dp))
 
             PrimaryClashButton(
-                text = "Start",
+                text = "Empezar",
                 onClick = onStartClick
             )
 
@@ -75,8 +75,8 @@ fun HomeScreen(
             Spacer(modifier = Modifier.height(24.dp))
 
             SecondaryClashButton(
-                text = "Ajustes",
-                onClick = onSettingsClick
+                text = "Cuenta",
+                onClick = onLoginClick
             )
         }
     }

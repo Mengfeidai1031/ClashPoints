@@ -9,6 +9,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.example.clashp.view.GameScreen
 import com.example.clashp.view.HomeScreen
+import com.example.clashp.view.LoginScreen
 import com.example.clashp.view.NameInputScreen
 import com.example.clashp.view.RankingScreen
 import com.example.clashp.view.ResultsScreen
@@ -30,8 +31,8 @@ fun AppNavigation() {
                 onRankingClick = {
                     navController.navigate(Screen.Ranking.route)
                 },
-                onSettingsClick = {
-                    // TODO: Navegar a ajustes
+                onLoginClick = {
+                    navController.navigate(Screen.Login.route)
                 }
             )
         }
@@ -111,6 +112,20 @@ fun AppNavigation() {
                 }
             )
         }
+
+        composable(Screen.Login.route) {
+            LoginScreen(
+                onLoginSuccess = {
+                    navController.popBackStack()
+                },
+                onPlayAsGuest = {
+                    navController.popBackStack()
+                },
+                onBackClick = {
+                    navController.popBackStack()
+                }
+            )
+        }
     }
 }
 
@@ -124,5 +139,5 @@ sealed class Screen(val route: String) {
         fun createRoute(playerName: String, score: Int) = "results/$playerName/$score"
     }
     object Ranking : Screen("ranking")
-    object Settings : Screen("settings")
+    object Login : Screen("login")
 }
