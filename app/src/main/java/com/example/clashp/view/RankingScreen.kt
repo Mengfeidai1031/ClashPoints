@@ -18,6 +18,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
@@ -105,29 +106,39 @@ private fun RankingContent(
     players: List<PlayerRanking>,
     paddingValues: PaddingValues
 ) {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(paddingValues)
-            .padding(horizontal = 16.dp)
-    ) {
-        Spacer(modifier = Modifier.height(16.dp))
-        Text(
-            text = "Top 10 Jugadores",
-            color = Color.White,
-            fontSize = 18.sp,
-            fontWeight = FontWeight.Bold,
-            modifier = Modifier.padding(bottom = 16.dp).fillMaxWidth().wrapContentWidth(Alignment.CenterHorizontally)
+    val gradient = Brush.verticalGradient(
+        colors = listOf(
+            Color(0xFF0A0A0A),
+            Color(0xFF1A0520),
+            Color(0xFF0D1B2A)
         )
+    )
 
-        LazyColumn(
-            verticalArrangement = Arrangement.spacedBy(12.dp)
+    Box(modifier = Modifier.fillMaxSize().background(gradient)){
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(paddingValues)
+                .padding(horizontal = 16.dp)
         ) {
-            itemsIndexed(players) { index, player ->
-                RankingItem(
-                    position = index + 1,
-                    player = player
-                )
+            Spacer(modifier = Modifier.height(16.dp))
+            Text(
+                text = "🏆 Top 10 Jugadores 🏆",
+                color = Color.White,
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                modifier = Modifier.padding(bottom = 16.dp).fillMaxWidth().wrapContentWidth(Alignment.CenterHorizontally)
+            )
+
+            LazyColumn(
+                verticalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                itemsIndexed(players) { index, player ->
+                    RankingItem(
+                        position = index + 1,
+                        player = player
+                    )
+                }
             }
         }
     }
@@ -158,19 +169,31 @@ fun RankingItem(
                 .padding(horizontal = 16.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Box(
-                modifier = Modifier
-                    .size(40.dp)
-                    .clip(CircleShape)
-                    .background(medalColor),
-                contentAlignment = Alignment.Center
-            ) {
+            if (position <= 3) {
                 Text(
-                    text = "#$position",
-                    color = Color.White,
-                    fontWeight = FontWeight.Bold,
-                    fontSize = 14.sp
+                    text = when(position) {
+                        1 -> "🥇"
+                        2 -> "🥈"
+                        3 -> "🥉"
+                        else -> ""
+                    },
+                    fontSize = 28.sp
                 )
+            } else {
+                Box(
+                    modifier = Modifier
+                        .size(40.dp)
+                        .clip(CircleShape)
+                        .background(medalColor),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Text(
+                        text = "#$position",
+                        color = Color.White,
+                        fontWeight = FontWeight.Bold,
+                        fontSize = 14.sp
+                    )
+                }
             }
 
             Spacer(modifier = Modifier.width(12.dp))
@@ -203,7 +226,7 @@ fun RankingItem(
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
                     text = player.score.toString(),
-                    color = Color(0xFF00D9FF),
+                    color = Color(0xFFFFFFFF),
                     fontSize = 16.sp,
                     fontWeight = FontWeight.Bold
                 )
