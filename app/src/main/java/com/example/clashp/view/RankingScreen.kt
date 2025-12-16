@@ -42,14 +42,15 @@ fun RankingScreen(
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(gradient),
+            .background(gradient)
+            .systemBarsPadding(),
         contentAlignment = Alignment.Center
     ) {
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
             modifier = Modifier
                 .fillMaxSize()
-                .padding(24.dp)
+                .padding(start = 24.dp, end = 24.dp, top = 24.dp, bottom = 24.dp)
         ) {
             // Título
             Text(
