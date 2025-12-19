@@ -13,19 +13,17 @@ class QuestionRepository {
         return try {
             val snapshot = questionsCollection
                 .whereEqualTo("category", categoryName)
-                .limit(limit.toLong())
                 .get()
                 .await()
 
-            val questions = snapshot.documents.mapNotNull { doc ->
+            val allQuestions = snapshot.documents.mapNotNull { doc ->
                 doc.toObject(Question::class.java)
             }.map { question ->
-                // mezclar para que nosea siempre igual
                 question.copy(options = question.options.shuffled())
             }
 
-            if (questions.size >= limit) {
-                Result.success(questions.shuffled().take(limit))
+            if (allQuestions.size >= limit) {
+                Result.success(allQuestions.shuffled().take(limit))
             } else {
                 Result.failure(Exception("No hay suficientes preguntas para la categoría $categoryName"))
             }
